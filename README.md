@@ -2,7 +2,11 @@
 
 
 ABSTRACT:	
+
+
 Customer segmentation is the process by which you divide your customers into segments up based on common characteristics – such as demographics or behaviors, so you can market to those customers more effectively. These customer segmentation groups can also be used to begin discussions of building a marketing persona.
+
+
 PROBLEM STATEMENT:
 Maximize: The availability of bikes to the customer.
 Minimize: Minimise the time of waiting to get a bike on rent.
@@ -11,6 +15,9 @@ Finding factors and cause those influence shortage of bike and time delay of ava
 Introduction :
 Bike sharing systems are a means of renting bicycles where the process of obtaining membership, rental, and bike return is automated via a network of kiosk locations throughout a city. Using these systems, people are able rent a bike from a one location and return it to a different place on an as-needed basis.
 The goal of this project is to combine the historical bike usage patterns with the weather data to forecast bike rental demand. The data set consists of hourly rental data spanning two years. 
+
+
+
 Factors Affecting :
 Following are the factors affecting to the number of bike rentals:
 
@@ -60,6 +67,8 @@ Object
 
 
 
+
+
 Steps involved :
 The following steps are involved in the project
 Exploratory Data Analysis : 
@@ -78,6 +87,9 @@ We plot the heatmap to find  the correlation between both dependent variable and
 Train test Split :
 In train test split we take x as dependent variables and y take as independent variable then train the model.
 
+
+
+
 ALGORITHMS: 
 LINEAR REGRESSION: 
 Linear regression is a supervised machine learning model majorly used in forecasting. Supervised machine learning models are those where we use the training data to build the model and then test the accuracy of the model using the loss function.
@@ -95,12 +107,12 @@ to our data. Here, x is called the independent variable or predictor variable, a
 
  
 
-
-
 RIDGE REGRESSION:
 
 Ridge regression is a model tuning method that is used to analyse any data that suffers from multicollinearity. This method performs L2 regularization. When the issue of multicollinearity occurs, least-squares are unbiased, and variances are large, this results in predicted values to be far away from the actual values.
 we have concluded that we would like to decrease the model complexity, that is the number of predictors. We could use the forward or backward selection for this, but that way we would not be able to tell anything about the removed variables' effect on the response. Removing predictors from the model can be seen as settings their coefficients to zero. Instead of forcing them to be exactly zero, let's penalize them if they are too far from zero, thus enforcing them to be small in a continuous way. This way, we decrease model complexity while keeping all variables in the model. This, basically, is what Ridge Regression does.
+
+
 
 LASSO REGRESSION: 
  
@@ -112,13 +124,20 @@ The only difference in ridge and lasso loss functions is in the penalty terms. U
 
 
 
+
+
 DECISION TREE:
 Decision tree is the most powerful and popular tool for classification and prediction. A Decision tree is a flowchart like tree structure, where each internal node denotes a test on an attribute, each branch represents an outcome of the test, and each leaf node (terminal node) holds a class label. A tree can be “learned” by splitting the source set into subsets based on an attribute value test. This process is repeated on each derived subset in a recursive manner called recursive partitioning. Decision trees classify instances by sorting them down the tree from the root to some leaf node, which provides the classification of the instance. An instance is classified by starting at the root node of the tree, testing the attribute specified by this node, and then moving down the tree branch corresponding to the value of the attribute as shown in the above figure. This process is then repeated for the subtree rooted at the new node. 
+
+
 
 GRADIENT BOOSTING:
 The term gradient boosting consists of two sub-terms, gradient and boosting. We already know that gradient boosting is a boosting technique. Let us see how the term ‘gradient’ is related here.
 
 Gradient boosting re-defines boosting as a numerical optimisation problem where the objective is to minimise the loss function of the model by adding weak learners using gradient descent. Gradient descent is a first-order iterative optimisation algorithm for finding a local minimum of a differentiable function. As gradient boosting is based on minimising a loss function, different types of loss functions can be used resulting in a flexible technique that can be applied to regression, multi-class classification, etc
+
+
+
 
 Conclusion:
 EDA:
