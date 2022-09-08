@@ -131,11 +131,21 @@ Gradient boosting re-defines boosting as a numerical optimisation problem where 
 
 Conclusion:
 EDA:
+
+
 Demand for bikes got higher when the temperature and hour values were more.
+
+
 Demand was high for low values of Humidity and solar radiation.
+
+
 Demand was high during springs and summer and autumn and very low during winters.
+
 Maximum bikes were rented in the year 2018
+
 Count of rented bikes is high during no holiday and functioning day especially during office time.
+
 Model Fitting Conclusion
+
 
 The model performed well in this case but as the data is time dependent, values of temperature, wind-speed, solar radiation etc. will not always be consistent. Therefore, there will be scenarios where the model might not perform well. As Machine learning is an exponentially evolving field, we will have to be prepared for all contingencies and also keep checking our model from time to time
