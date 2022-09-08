@@ -1,11 +1,9 @@
-# Bike-Sharing-Demand-Prediction---Supervised-machine-Learning-Regression
-
-
-ABSTRACT:	
-
-
-Customer segmentation is the process by which you divide your customers into segments up based on common characteristics – such as demographics or behaviors, so you can market to those customers more effectively. These customer segmentation groups can also be used to begin discussions of building a marketing persona.
-
+Bike Sharing Demand Prediction
+![scooty 2](https://user-images.githubusercontent.com/103363862/189123122-cbe11a88-48d1-4187-8d41-d87c5763a24e.jpg)
+                                                     
+                                                     
+                                                     
+                      
 
 PROBLEM STATEMENT:
 Maximize: The availability of bikes to the customer.
@@ -15,6 +13,8 @@ Finding factors and cause those influence shortage of bike and time delay of ava
 Introduction :
 Bike sharing systems are a means of renting bicycles where the process of obtaining membership, rental, and bike return is automated via a network of kiosk locations throughout a city. Using these systems, people are able rent a bike from a one location and return it to a different place on an as-needed basis.
 The goal of this project is to combine the historical bike usage patterns with the weather data to forecast bike rental demand. The data set consists of hourly rental data spanning two years. 
+
+![problem](https://user-images.githubusercontent.com/103363862/189124448-3b29ff5e-1fae-4f73-a5e0-2271cb02f71a.png)
 
 
 
@@ -49,24 +49,6 @@ Snowfall(cm)
 Seasons
 Holiday
 Functioning day
-Type
-Date
-Int64
-Int64
-Float64
-Int64
-Float64
-Int64
-Float64
-Float64
-Float64
-Float64
-Object
-Object
-Object
-
-
-
 
 
 Steps involved :
@@ -87,6 +69,8 @@ We plot the heatmap to find  the correlation between both dependent variable and
 Train test Split :
 In train test split we take x as dependent variables and y take as independent variable then train the model.
 
+![eda steps](https://user-images.githubusercontent.com/103363862/189124038-381c7dea-6daa-45ac-a0f8-e633ce206d05.jpg)
+
 
 
 
@@ -100,6 +84,8 @@ We’re going to fit a line
 to our data. Here, x is called the independent variable or predictor variable, and y is called the dependent variable or response variable. Before we talk about how to do the fit, let’s take a closer look at the important quantities from the fit:
 • β1 is the slope of the line: this is one of the most important quantities in any linear regression analysis
 • β0 is the intercept of the line.
+
+![linear regression](https://user-images.githubusercontent.com/103363862/189124667-0bbf37e6-e3f4-42c4-9558-7593ef359c29.png)
 
 
 
@@ -129,12 +115,16 @@ The only difference in ridge and lasso loss functions is in the penalty terms. U
 DECISION TREE:
 Decision tree is the most powerful and popular tool for classification and prediction. A Decision tree is a flowchart like tree structure, where each internal node denotes a test on an attribute, each branch represents an outcome of the test, and each leaf node (terminal node) holds a class label. A tree can be “learned” by splitting the source set into subsets based on an attribute value test. This process is repeated on each derived subset in a recursive manner called recursive partitioning. Decision trees classify instances by sorting them down the tree from the root to some leaf node, which provides the classification of the instance. An instance is classified by starting at the root node of the tree, testing the attribute specified by this node, and then moving down the tree branch corresponding to the value of the attribute as shown in the above figure. This process is then repeated for the subtree rooted at the new node. 
 
+![dt](https://user-images.githubusercontent.com/103363862/189124884-50d9a99e-ddee-472a-9f5e-a16ea0720746.png)
+
 
 
 GRADIENT BOOSTING:
 The term gradient boosting consists of two sub-terms, gradient and boosting. We already know that gradient boosting is a boosting technique. Let us see how the term ‘gradient’ is related here.
 
 Gradient boosting re-defines boosting as a numerical optimisation problem where the objective is to minimise the loss function of the model by adding weak learners using gradient descent. Gradient descent is a first-order iterative optimisation algorithm for finding a local minimum of a differentiable function. As gradient boosting is based on minimising a loss function, different types of loss functions can be used resulting in a flexible technique that can be applied to regression, multi-class classification, etc
+
+![gb](https://user-images.githubusercontent.com/103363862/189125097-7a88cdeb-04fa-4ee8-8195-71ed9fb09327.png)
 
 
 
